@@ -952,4 +952,200 @@ export const startups = [
     is_seeking_funding: false,
     has_mvp: true,
   },
-]
+  {
+    id: 35,
+    name: "BharatAI Labs",
+    industry: "AI",
+    founded: 2021,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "21 Innovation Park",
+      city: "Bengaluru",
+      state: "Karnataka",
+    },
+    founders: [
+      { name: "Aarav Mehta", role: "CEO" },
+      { name: "Neha Kulkarni", role: "CTO" },
+    ],
+    employees: 48,
+    website: "https://www.bharatailabs.in",
+    mission_statement:
+      "Solving India-scale problems using artificial intelligence.",
+    description:
+      "BharatAI Labs builds AI platforms for governance, healthcare diagnostics, and agriculture analytics.",
+    is_seeking_funding: true,
+    has_mvp: true,
+  },
+
+  {
+    id: 36,
+    name: "KrishiSetu",
+    industry: "AgriTech",
+    founded: 2019,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "88 Green Corridor",
+      city: "Indore",
+      state: "Madhya Pradesh",
+    },
+    founders: [{ name: "Rajat Verma", role: "CEO" }],
+    employees: 62,
+    website: "https://www.krishisetu.in",
+    mission_statement:
+      "Empowering Indian farmers through data-driven agriculture.",
+    description:
+      "KrishiSetu provides IoT-based soil monitoring and crop advisory solutions for small farmers.",
+    is_seeking_funding: false,
+    has_mvp: true,
+  },
+
+  {
+    id: 37,
+    name: "MediLink India",
+    industry: "Healthcare",
+    founded: 2020,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "14 Wellness Avenue",
+      city: "Hyderabad",
+      state: "Telangana",
+    },
+    founders: [
+      { name: "Dr. Shreya Nair", role: "CEO" },
+      { name: "Karthik Reddy", role: "CTO" },
+    ],
+    employees: 83,
+    website: "https://www.medilinkindia.in",
+    mission_statement:
+      "Bridging the healthcare gap between urban doctors and rural patients.",
+    description:
+      "MediLink India offers telemedicine platforms and remote diagnostics for tier-2 and tier-3 cities.",
+    is_seeking_funding: true,
+    has_mvp: true,
+  },
+
+  {
+    id: 38,
+    name: "PaySutra",
+    industry: "FinTech",
+    founded: 2018,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "302 Finance Street",
+      city: "Mumbai",
+      state: "Maharashtra",
+    },
+    founders: [
+      { name: "Kunal Desai", role: "CEO" },
+      { name: "Riya Shah", role: "CPO" },
+    ],
+    employees: 120,
+    website: "https://www.paysutra.in",
+    mission_statement: "Making digital payments simple, secure, and inclusive.",
+    description:
+      "PaySutra builds UPI-based payment solutions and credit tools for MSMEs across India.",
+    is_seeking_funding: false,
+    has_mvp: true,
+  },
+
+  {
+    id: 39,
+    name: "EduPath",
+    industry: "EdTech",
+    founded: 2022,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "56 Learning Lane",
+      city: "Kota",
+      state: "Rajasthan",
+    },
+    founders: [{ name: "Manish Agarwal", role: "CEO" }],
+    employees: 29,
+    website: "https://www.edupath.in",
+    mission_statement:
+      "Affordable and accessible education for every Indian student.",
+    description:
+      "EduPath provides online test prep and mentorship for competitive exams like JEE and NEET.",
+    is_seeking_funding: true,
+    has_mvp: false,
+  },
+
+  {
+    id: 40,
+    name: "UrbanFleet",
+    industry: "Mobility",
+    founded: 2017,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "900 Transport Hub",
+      city: "Delhi",
+      state: "Delhi",
+    },
+    founders: [
+      { name: "Rohit Malhotra", role: "CEO" },
+      { name: "Aditi Singh", role: "COO" },
+    ],
+    employees: 215,
+    website: "https://www.urbanfleet.in",
+    mission_statement:
+      "Transforming urban mobility with sustainable transport.",
+    description:
+      "UrbanFleet operates EV-based ride-sharing and logistics services in Indian metros.",
+    is_seeking_funding: false,
+    has_mvp: true,
+  },
+
+  {
+    id: 41,
+    name: "SecureBharat",
+    industry: "Cybersecurity",
+    founded: 2021,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "71 Cyber Tower",
+      city: "Pune",
+      state: "Maharashtra",
+    },
+    founders: [
+      { name: "Nikhil Patil", role: "CEO" },
+      { name: "Shruti Deshpande", role: "CTO" },
+    ],
+    employees: 54,
+    website: "https://www.securebharat.in",
+    mission_statement: "Protecting India’s digital infrastructure.",
+    description:
+      "SecureBharat offers cloud security, compliance, and threat-monitoring tools for enterprises.",
+    is_seeking_funding: true,
+    has_mvp: true,
+  },
+
+  {
+    id: 42,
+    name: "LogiKart",
+    industry: "Logistics",
+    founded: 2019,
+    country: "India",
+    continent: "Asia",
+    business_address: {
+      street: "18 Supply Chain Road",
+      city: "Gurugram",
+      state: "Haryana",
+    },
+    founders: [{ name: "Amit Chauhan", role: "CEO" }],
+    employees: 98,
+    website: "https://www.logikart.in",
+    mission_statement:
+      "Optimizing logistics for India’s fast-growing e-commerce ecosystem.",
+    description:
+      "LogiKart provides last-mile delivery and warehouse optimization solutions.",
+    is_seeking_funding: false,
+    has_mvp: true,
+  },
+];
