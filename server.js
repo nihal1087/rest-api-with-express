@@ -11,6 +11,8 @@ const app = express();
 
 app.use(cors());
 
+app.set("json spaces", 2);
+
 app.get("/", async (req, res) => {
   try {
     const readmePath = path.join(process.cwd(), "README.md");
@@ -54,11 +56,9 @@ app.get("/", async (req, res) => {
 app.use("/api", apiRouter);
 
 app.use((req, res) => {
-  res
-    .status(404)
-    .json({
-      message: "Endpoint not found. Please check the API documentation.",
-    });
+  res.status(404).json({
+    message: "Endpoint not found. Please check the API documentation.",
+  });
 });
 
 app.listen(PORT, () => console.log(`server connected on port ${PORT}`));
