@@ -61,4 +61,4 @@ app.use((req, res) => {
   });
 });
 
-app.listen(PORT, () => console.log(`server connected on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server Connected on PORT ${PORT}`));
