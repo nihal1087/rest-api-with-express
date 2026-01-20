@@ -23,12 +23,13 @@ The API supports **filtering, searching, and querying startup data** by multiple
 - **Express.js**
 - **JavaScript (ES Modules)**
 - **CORS**
+- **Docker**
 
 ---
 
 ## 📂 Project Structure
 
-```
+```md
 REST-API-WITH-EXPRESS/
 │
 ├── controllers/
@@ -41,11 +42,42 @@ REST-API-WITH-EXPRESS/
 ├── routes/
 │ └── apiRoutes.js
 │
+├── Dockerfile
+├── .dockerignore
 ├── server.js
 ├── package.json
 ├── README.md
 └── test.http
+
 ```
+
+---
+
+## 🐳 Run with Docker
+
+This project is fully containerized using Docker.
+
+### Build the Docker image
+
+```bash
+docker build -t startup_planet:v1 .
+```
+
+### Run the container
+
+```bash
+docker run -p 8000:8000 startup_planet:v1
+```
+
+### Stop the container
+
+```bash
+docker ps
+docker stop <container_id>
+
+```
+
+
 
 ---
 
@@ -168,9 +200,9 @@ GET /api/has_mvp/true
 
 ## Deployment ☁️
 
-Deployed on Render using:
+Deployed on Render using a Dockerized Node.js application.
 
-- Build command: `npm install`
+- Docker image built from `Dockerfile`
 - Start command: `npm start`
 - Dynamic port binding via `process.env.PORT`
 
